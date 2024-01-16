@@ -30,6 +30,18 @@
     border: 0;
 }
 
+h3 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 header,
 main {
     margin-left: 135px;
@@ -54,7 +66,7 @@ nav {
 
 nav>ul {
     display: flex;
-    gap: 44px;
+    gap: 2.75rem;
 }
 
 nav li {
@@ -82,7 +94,7 @@ nav li a {
     border-radius: 16px;
     /* margin: auto; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     margin-top: 60px;
@@ -95,6 +107,7 @@ nav li a {
     font-weight: 800;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .banner-description {
@@ -132,29 +145,29 @@ nav li a {
     /* width: 577px; */
     /* margin-left: 135px;
     margin-right: 135px; */
+    margin-bottom: 100px;
 }
 
 .popular-tours .popular-tours-description {
     width: 1000%;
 }
 
-.popular-tours h3 {
+/* .popular-tours h3 {
     color: #131318;
-    /* text-align: center; */
+    text-align: center;
     font-family: Mulish;
     font-size: 2.5rem;
     font-weight: 800;
-}
+} */
 
-.popular-tours p, ul {
+.popular-tours ul {
     color: rgba(19, 19, 24, 0.70);
-    font-family: Mulish;
     font-size: 1rem;
     font-weight: 400;
     /* gap: 24px; */
 }
 
-.popular-tours-description li{
+.popular-tours-description li {
     gap: 16px;
 }
 
@@ -166,3 +179,61 @@ nav li a {
     margin-top: 32px;
 }
 
+.choose-destination-content {
+    align-items: center;
+    text-align: center;
+}
+
+/* .choose-destination-img{
+    display: grid;
+} */
+
+.choose-destination-content {
+    margin-bottom: 3rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.choose-destination-img {
+    position: relative;
+}
+
+
+.row img {
+    max-width: 100%;
+}
+
+.txt .img-txt {
+    position: absolute;
+    color: #FFF;
+    font-size: 28px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+}
+
+
+/* Responsive Styles For Mobile */
+@media screen and (max-width:576px) {
+
+    nav,
+    nav>ul,
+    .banner,
+    .popular-tours {
+        flex-direction: column;
+    }
+
+    .input-fields {
+        display: block;
+        gap: 1.8rem;
+    }
+}
