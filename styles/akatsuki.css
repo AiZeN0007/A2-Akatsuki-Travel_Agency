@@ -36,6 +36,15 @@ h3 {
     font-weight: 800;
 }
 
+h4 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
 p {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
@@ -242,7 +251,7 @@ nav li a {
     margin-top: 6.25rem;
 }
 
-.services{
+.services {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -251,14 +260,14 @@ nav li a {
 
 .services-row {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 1.5rem;
 }
 
 .hotels {
-    width: 43%;
-height: auto;
-flex-shrink: 0;
+    width: 44%;
+    height: auto;
+    flex-shrink: 0;
     border-radius: 1rem;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
@@ -267,9 +276,9 @@ flex-shrink: 0;
 }
 
 .maps {
-    width: 43%;
-height: auto;
-flex-shrink: 0;
+    width: 44%;
+    height: auto;
+    flex-shrink: 0;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
@@ -277,20 +286,60 @@ flex-shrink: 0;
     text-align: left;
 }
 
-.price{
-    width: 43%;;
-height: auto;
-flex-shrink: 0;
+.price {
+    width: 43%;
+    ;
+    height: auto;
+    flex-shrink: 0;
     border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
-padding: 32px 55px 32px 32px;
-justify-content: center;
-align-items: center;
-text-align: left;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px 55px 32px 32px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }
 
+.perfect-place {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6.25rem;
+}
 
+.perfect-place-des li {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.perfect-place-des .btn-primary {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    margin-top: 2rem;
+}
+
+.perfect-place-des {
+    width: 43%;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #1313181A;
+    padding: 24px;
+}
+
+.newsletter form input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
 
 /* Responsive Styles For Mobile */
 @media screen and (max-width:576px) {
