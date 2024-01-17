@@ -329,6 +329,12 @@ nav li a {
     justify-content: space-between;
 }
 
+.newsletter-form {
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    width: 45%;
+}
+
 .newsletter form {
     display: flex;
     flex-direction: column;
@@ -339,7 +345,17 @@ nav li a {
 .newsletter form input {
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 1rem;
+    padding: 16px;
+    height: 52px;
+    border: none;
 }
+
+/* .newsletter-img{
+    height: 500px;
+} */
+
+
 
 /* Responsive Styles For Mobile */
 @media screen and (max-width:576px) {
